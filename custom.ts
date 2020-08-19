@@ -6,7 +6,7 @@
 namespace custom {
 
     //% block
-    //% help=md:test-extension/custom-help
+    //% help=github:test-extension/custom-help
     export function spawnTwoChickens(): void {
         // Add code here
         mobs.spawn(CHICKEN, pos(0, 0, 0))
