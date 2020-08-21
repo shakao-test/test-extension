@@ -12,6 +12,14 @@ namespace custom {
         mobs.spawn(CHICKEN, pos(0, 0, 0))
         mobs.spawn(CHICKEN, pos(0, 0, 0))
     }
+    
+    
+    //% block
+    //% help=github:test-extension/custom-help.md
+    export function spawnACow(): void {
+        // Add code here
+        mobs.spawn(COW, pos(0, 0, 0))
+    }
 
     /**
      * TODO: describe your function here
